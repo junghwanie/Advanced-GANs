@@ -1,0 +1,8 @@
+colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1602866480661/work
+numpy @ file:///Users/runner/miniforge3/conda-bld/numpy_1643958864831/work
+Pillow==9.0.1
+scipy @ file:///Users/runner/miniforge3/conda-bld/scipy_1644357749526/work
+torch==1.10.2
+torchvision==0.11.3
+tqdm @ file:///home/conda/feedstock_root/build_artifacts/tqdm_1632160078689/work
+typing_extensions==4.0.1

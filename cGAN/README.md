@@ -1,7 +1,8 @@
 ## Conditional GAN
 ### Basic conditional GAN
+<img width="770" alt="cGAN" src="https://user-images.githubusercontent.com/37526521/154440178-0bf1c125-16c4-4d46-a1a0-81b1f5d43c09.png">
 
-+ cGAN (Conditional Generative Adversarial Nets): was implemented by ``python cGAN.py``.   
++ cGAN ([Conditional Generative Adversarial Nets](https://arxiv.org/abs/1411.1784)): was implemented by ``python cGAN.py``.   
   This network illustrates that conditional information (classes, labels, images, text descriptions) was added to the existing GANs.
   
 + ACGAN: Conditional Image Synthesis With Auxiliary Classifier GANs
@@ -36,3 +37,6 @@ optional arguments:
   --netD NETD           path to netD (to continue training)
   --outf OUTF           folder to output images and model checkpoints
   --manualSeed SEED     manual seed</code></pre>
+  
+  ## Citation
+  The lecture of Advanced-GANs in Seoul National University by Naver AI lab.

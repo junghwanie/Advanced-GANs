@@ -4,8 +4,16 @@ This code implements the paper: [Image-to-Image Translation with Conditional Adv
 ## Description
 ### Objective
 1. **cGAN Loss**: As an object function, conditional GAN (cGAN) was used to train whether the input image and output image match well.
-<img width="492" alt="pix2pix" src="https://user-images.githubusercontent.com/37526521/154443733-5b9dfc71-8f4b-472d-a739-479c00b789fd.png">
-
-2. **L1 loss**: pix2pix adds an additional loss term. Using cGAN loss, Generator is trained to fool Discriminator well, but since Generator only serves to fool Discriminator, the ground truth output and the generated image may be different.
-<img width="498" alt="pix2pix2" src="https://user-images.githubusercontent.com/37526521/154443825-f50b653f-86ed-4d07-abf4-bd0f0675de9f.png">
+2. **L1 Loss**: pix2pix adds an additional loss term. Using cGAN loss, Generator is trained to fool Discriminator well, 
 ### Architecture
+1. The basic architecture of Generator follows UNet with skip connection added to encoder-decoder.
+2. PatchGAN is used as the architecture of the Discriminator: The L1 loss helps to produce a realistic image at low-frequency, but does not make it possible to produce realistic image at high-frequency. Therefore, a Discriminator is used to model the high-frequency structure.
+
+## Dependencies
++ Python 3.8.12+
++ PyTorch 1.10.2+
+
+## Dataset and usage
+You can download the facades dataset by entering [CMP Facade Database](https://cmp.felk.cvut.cz/~tylecr1/facade/).
+Before implementing the code, you should change the path of the dataset.
+<pre><code>python pix2pix.py</code></pre>

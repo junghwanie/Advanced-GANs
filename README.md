@@ -1,5 +1,5 @@
 ## Advanced-GANs
-This repository provides tutorial and assignment code for computer vision researchers to learn generative models. 
+This repository provides tutorial and toy example code for computer vision researchers to learn generative models. 
 The code is based on SNU-Advanced-GANs master coursework.
 
 ## References

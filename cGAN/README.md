@@ -1,5 +1,6 @@
 ## Conditional GAN
-### Basic conditional GAN 
+### Basic conditional GAN
+
 + cGAN (Conditional Generative Adversarial Nets): was implemented by ``python cGAN.py``.   
   This network illustrates that conditional information (classes, labels, images, text descriptions) was added to the existing GANs.
   

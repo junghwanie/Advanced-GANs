@@ -11,7 +11,7 @@
 + Pix2Pix: Image-to-Image Translation with Conditional Adversarial Networks
 
 ### Unsupervised Approach
-+ CycleGAN: Unparied Image-to-Image Translation using Cycle-Consistent Adversarial Networks
++ CycleGAN: Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks
 
 ## Dependencies
 + Python 3.8.12+

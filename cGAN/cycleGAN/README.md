@@ -9,10 +9,12 @@ The objective of CycleGAN consists of adversarial loss (to make image realistic)
 **Adversarial Losses**
 
 <img width="372" alt="advloss" src="https://user-images.githubusercontent.com/37526521/155486892-f7af2ae1-12c4-483f-9de9-645ec5f9a401.png">
-A similar adversarial loss is applied to mapping network F.
 
+A similar adversarial loss is applied to mapping network F.  
 
 **Cycle Consistency Loss**
+
+If we simply learn adversarial loss, mode collapse problem may occur. Therefore, the cycle consistency loss (L1 loss) is additionally trained so that the data are well mapped even on the unpaired dataset.
 
 <img width="298" alt="cycleloss" src="https://user-images.githubusercontent.com/37526521/155486909-7c84efa4-f753-4864-a2f0-06f65f9b012f.png">
 

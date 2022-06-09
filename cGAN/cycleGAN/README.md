@@ -6,7 +6,7 @@ In this papaer, the mapping network G:X->Y and inverse network F:Y->X were train
 
 The objective of CycleGAN consists of adversarial loss (to make image realistic) and cycle-consistency loss (to preserve the content of the input image).
 
-**Adversarial Losses**
+**Adversarial Loss**
 
 <img width="372" alt="advloss" src="https://user-images.githubusercontent.com/37526521/155486892-f7af2ae1-12c4-483f-9de9-645ec5f9a401.png">
 
